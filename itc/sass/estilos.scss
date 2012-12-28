@@ -192,3 +192,29 @@ h1 {
   background: #FBFBFB;
   margin-top: 0px;
 }
+@mixin gradient{
+	background: linear-gradient(#3F94BF, #4D9CD4);
+	background: -moz-linear-gradient(#3F94BF, #4D9CD4);
+	background: -webkit-linear-gradient(#3F94BF, #4D9CD4);
+	border-radius: 5px;
+	border: 1px solid gray;
+	box-shadow: 0px 5px 8px rgba(0,0,0,.5), inset 1px 1px 0px rgba(255,255,255,.3);
+}
+#contenedor-acerca{
+	margin-top: 100px;
+	margin-left: 20px;
+	
+	section{
+		width: 98%;
+		background: red; 
+		margin-bottom: 10px;
+		display: inline-block;
+		vertical-align:top;
+		@include gradient;
+		
+		#content{
+			margin: 10px;
+			display: block;
+		}
+	}
+}
