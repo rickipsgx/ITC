@@ -1,4 +1,3 @@
-@import "compass/reset";
 @import url(http://fonts.googleapis.com/css?family=Chelsea+Market);
 /*declarando font Ubuntu*/
 @font-face {
@@ -58,7 +57,7 @@ h1 {
 .page-wrap {
   float: right;
   width: 100%;
-  transition: width 0.3s ease; /*estas son las transiciones para el menu, tarda en volver a su estado original en 3s*/
+  transition: width 0.3s ease; /*estas son las transiciones para el menu, tarda en volver a su estado original en 3miles segundos*/
   -o-transition: width 0.3s ease;
   -moz-transition: width 0.3s ease;
   -webkit-transition: width 0.3s ease;
